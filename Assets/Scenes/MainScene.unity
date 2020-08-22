@@ -507,6 +507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1355293557}
+  - component: {fileID: 1355293558}
   m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
@@ -530,6 +531,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1355293558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355293556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd8deecec3a243d4952cc0de1891a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicleSprites:
+  - {fileID: 21300000, guid: ac56f0e3208404e119ad1e5a0d4a6eaf, type: 3}
+  - {fileID: 21300000, guid: 313664fd441b04843b321d97ce68dca0, type: 3}
+  - {fileID: 21300000, guid: fbd2bf883a1764bf88cbdcb84ca6164b, type: 3}
+  - {fileID: 21300000, guid: 4f3701f69a2c84267996dc993739a947, type: 3}
+  - {fileID: 21300000, guid: 5db6e01155711447fb533688ae2a2729, type: 3}
+  vehiclePrefab: {fileID: 6397335965619171878, guid: 817899b1d597e4d479a774d456758665,
+    type: 3}
 --- !u!1 &1908115702
 GameObject:
   m_ObjectHideFlags: 0
